@@ -4,13 +4,12 @@
 TH230:
   name: TH230
   vendor: Wincor Nixdorf
-  notes: >
-      Profile for TH230. Use bitImageColumn to print properly.
+  notes:
   inherits: default
   features:
     barcodeA: true
     barcodeB: true
-    bitImageRaster: true
+    bitImageRaster: false
     bitImageColumn: true
     graphics: true
     starCommands: false
